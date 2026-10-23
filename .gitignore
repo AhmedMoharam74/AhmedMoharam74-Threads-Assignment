@@ -1,0 +1,7 @@
+**/bin/
+**/obj/
+**/Data/
+.DS_Store
+.tmp/
+.dotnet-cli-home/
+invoices/

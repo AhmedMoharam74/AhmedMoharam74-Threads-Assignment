@@ -1,0 +1,432 @@
+[
+  {
+    "id": 15,
+    "customerId": 99,
+    "items": [
+      {
+        "productId": 2,
+        "quantity": 1,
+        "unitPrice": 0
+      }
+    ],
+    "couponCode": null,
+    "subTotal": 0,
+    "discount": 0,
+    "shippingCost": 0,
+    "totalAmount": 0,
+    "status": "Rejected",
+    "createdAt": "2026-10-23T15:26:44.836444+03:00",
+    "failureReason": "Customer #99 not found",
+    "transactionId": null
+  },
+  {
+    "id": 4,
+    "customerId": 4,
+    "items": [
+      {
+        "productId": 6,
+        "quantity": 1,
+        "unitPrice": 0
+      }
+    ],
+    "couponCode": null,
+    "subTotal": 0,
+    "discount": 0,
+    "shippingCost": 0,
+    "totalAmount": 0,
+    "status": "Rejected",
+    "createdAt": "2026-10-23T15:26:44.836439+03:00",
+    "failureReason": "Customer is inactive",
+    "transactionId": null
+  },
+  {
+    "id": 10,
+    "customerId": 10,
+    "items": [
+      {
+        "productId": 4,
+        "quantity": 1,
+        "unitPrice": 0
+      }
+    ],
+    "couponCode": null,
+    "subTotal": 0,
+    "discount": 0,
+    "shippingCost": 0,
+    "totalAmount": 0,
+    "status": "Rejected",
+    "createdAt": "2026-10-23T15:26:44.83644+03:00",
+    "failureReason": "Insufficient stock for \u0027Mechanical Keyboard\u0027",
+    "transactionId": null
+  },
+  {
+    "id": 9,
+    "customerId": 9,
+    "items": [
+      {
+        "productId": 3,
+        "quantity": 5,
+        "unitPrice": 0
+      }
+    ],
+    "couponCode": null,
+    "subTotal": 0,
+    "discount": 0,
+    "shippingCost": 0,
+    "totalAmount": 0,
+    "status": "Rejected",
+    "createdAt": "2026-10-23T15:26:44.83644+03:00",
+    "failureReason": "Insufficient stock for \u0027Wireless Mouse\u0027",
+    "transactionId": null
+  },
+  {
+    "id": 18,
+    "customerId": 8,
+    "items": [
+      {
+        "productId": 6,
+        "quantity": 1,
+        "unitPrice": 150
+      }
+    ],
+    "couponCode": "FAKE50",
+    "subTotal": 150,
+    "discount": 0,
+    "shippingCost": 0,
+    "totalAmount": 0,
+    "status": "Rejected",
+    "createdAt": "2026-10-23T15:26:44.836444+03:00",
+    "failureReason": "Coupon \u0027FAKE50\u0027 does not exist",
+    "transactionId": null
+  },
+  {
+    "id": 12,
+    "customerId": 2,
+    "items": [
+      {
+        "productId": 2,
+        "quantity": 1,
+        "unitPrice": 800
+      }
+    ],
+    "couponCode": "OLD20",
+    "subTotal": 800,
+    "discount": 0,
+    "shippingCost": 0,
+    "totalAmount": 0,
+    "status": "Rejected",
+    "createdAt": "2026-10-23T15:26:44.836441+03:00",
+    "failureReason": "Coupon \u0027OLD20\u0027 has expired",
+    "transactionId": null
+  },
+  {
+    "id": 8,
+    "customerId": 8,
+    "items": [
+      {
+        "productId": 1,
+        "quantity": 1,
+        "unitPrice": 1200
+      }
+    ],
+    "couponCode": "SAVE10",
+    "subTotal": 1200,
+    "discount": 240,
+    "shippingCost": 0,
+    "totalAmount": 960,
+    "status": "PaymentFailed",
+    "createdAt": "2026-10-23T15:26:44.83644+03:00",
+    "failureReason": "Card declined by issuer",
+    "transactionId": null
+  },
+  {
+    "id": 14,
+    "customerId": 5,
+    "items": [
+      {
+        "productId": 8,
+        "quantity": 2,
+        "unitPrice": 70
+      },
+      {
+        "productId": 5,
+        "quantity": 1,
+        "unitPrice": 45
+      }
+    ],
+    "couponCode": "WELCOME15",
+    "subTotal": 185,
+    "discount": 46.25,
+    "shippingCost": 10.7,
+    "totalAmount": 149.45,
+    "status": "Completed",
+    "createdAt": "2026-10-23T15:26:44.836444+03:00",
+    "failureReason": null,
+    "transactionId": "TXN-B1495E2A6865"
+  },
+  {
+    "id": 1,
+    "customerId": 1,
+    "items": [
+      {
+        "productId": 1,
+        "quantity": 1,
+        "unitPrice": 1200
+      },
+      {
+        "productId": 3,
+        "quantity": 1,
+        "unitPrice": 25
+      }
+    ],
+    "couponCode": "SAVE10",
+    "subTotal": 1225,
+    "discount": 245,
+    "shippingCost": 0,
+    "totalAmount": 980,
+    "status": "Completed",
+    "createdAt": "2026-10-23T15:26:44.836424+03:00",
+    "failureReason": null,
+    "transactionId": "TXN-6D26C56EA8D7"
+  },
+  {
+    "id": 3,
+    "customerId": 3,
+    "items": [
+      {
+        "productId": 5,
+        "quantity": 2,
+        "unitPrice": 45
+      },
+      {
+        "productId": 8,
+        "quantity": 1,
+        "unitPrice": 70
+      }
+    ],
+    "couponCode": "WELCOME15",
+    "subTotal": 160,
+    "discount": 24,
+    "shippingCost": 10.7,
+    "totalAmount": 146.7,
+    "status": "Completed",
+    "createdAt": "2026-10-23T15:26:44.836439+03:00",
+    "failureReason": null,
+    "transactionId": "TXN-407C052F4C97"
+  },
+  {
+    "id": 2,
+    "customerId": 2,
+    "items": [
+      {
+        "productId": 2,
+        "quantity": 1,
+        "unitPrice": 800
+      }
+    ],
+    "couponCode": null,
+    "subTotal": 800,
+    "discount": 40,
+    "shippingCost": 7.3,
+    "totalAmount": 767.3,
+    "status": "Completed",
+    "createdAt": "2026-10-23T15:26:44.836438+03:00",
+    "failureReason": null,
+    "transactionId": "TXN-5F4FCBFDDF2E"
+  },
+  {
+    "id": 7,
+    "customerId": 7,
+    "items": [
+      {
+        "productId": 6,
+        "quantity": 1,
+        "unitPrice": 150
+      },
+      {
+        "productId": 8,
+        "quantity": 1,
+        "unitPrice": 70
+      }
+    ],
+    "couponCode": null,
+    "subTotal": 220,
+    "discount": 11,
+    "shippingCost": 9.0,
+    "totalAmount": 218.0,
+    "status": "Completed",
+    "createdAt": "2026-10-23T15:26:44.83644+03:00",
+    "failureReason": null,
+    "transactionId": "TXN-7D9A4AB19702"
+  },
+  {
+    "id": 16,
+    "customerId": 6,
+    "items": [
+      {
+        "productId": 7,
+        "quantity": 1,
+        "unitPrice": 350
+      },
+      {
+        "productId": 5,
+        "quantity": 1,
+        "unitPrice": 45
+      }
+    ],
+    "couponCode": null,
+    "subTotal": 395,
+    "discount": 0,
+    "shippingCost": 18.4,
+    "totalAmount": 413.4,
+    "status": "Completed",
+    "createdAt": "2026-10-23T15:26:44.836444+03:00",
+    "failureReason": null,
+    "transactionId": "TXN-90231D06DDFE"
+  },
+  {
+    "id": 6,
+    "customerId": 6,
+    "items": [
+      {
+        "productId": 5,
+        "quantity": 1,
+        "unitPrice": 45
+      }
+    ],
+    "couponCode": "FLASH20",
+    "subTotal": 45,
+    "discount": 9,
+    "shippingCost": 6.9,
+    "totalAmount": 42.9,
+    "status": "Completed",
+    "createdAt": "2026-10-23T15:26:44.836439+03:00",
+    "failureReason": null,
+    "transactionId": "TXN-C9A1D3EF7975"
+  },
+  {
+    "id": 17,
+    "customerId": 7,
+    "items": [
+      {
+        "productId": 2,
+        "quantity": 1,
+        "unitPrice": 800
+      }
+    ],
+    "couponCode": "SAVE10",
+    "subTotal": 800,
+    "discount": 120,
+    "shippingCost": 7.3,
+    "totalAmount": 687.3,
+    "status": "Completed",
+    "createdAt": "2026-10-23T15:26:44.836444+03:00",
+    "failureReason": null,
+    "transactionId": "TXN-B19194253BA6"
+  },
+  {
+    "id": 19,
+    "customerId": 9,
+    "items": [
+      {
+        "productId": 8,
+        "quantity": 1,
+        "unitPrice": 70
+      }
+    ],
+    "couponCode": null,
+    "subTotal": 70,
+    "discount": 0,
+    "shippingCost": 6.9,
+    "totalAmount": 76.9,
+    "status": "Completed",
+    "createdAt": "2026-10-23T15:26:44.836445+03:00",
+    "failureReason": null,
+    "transactionId": "TXN-5BC11F680592"
+  },
+  {
+    "id": 20,
+    "customerId": 10,
+    "items": [
+      {
+        "productId": 1,
+        "quantity": 1,
+        "unitPrice": 1200
+      },
+      {
+        "productId": 6,
+        "quantity": 1,
+        "unitPrice": 150
+      }
+    ],
+    "couponCode": "FLASH20",
+    "subTotal": 1350,
+    "discount": 337.5,
+    "shippingCost": 0,
+    "totalAmount": 1012.5,
+    "status": "Completed",
+    "createdAt": "2026-10-23T15:26:44.836445+03:00",
+    "failureReason": null,
+    "transactionId": "TXN-AB3B32685AB1"
+  },
+  {
+    "id": 11,
+    "customerId": 1,
+    "items": [
+      {
+        "productId": 4,
+        "quantity": 1,
+        "unitPrice": 90
+      }
+    ],
+    "couponCode": null,
+    "subTotal": 90,
+    "discount": 9,
+    "shippingCost": 8.3,
+    "totalAmount": 89.3,
+    "status": "Completed",
+    "createdAt": "2026-10-23T15:26:44.83644+03:00",
+    "failureReason": null,
+    "transactionId": "TXN-7562BFF0EB38"
+  },
+  {
+    "id": 5,
+    "customerId": 5,
+    "items": [
+      {
+        "productId": 7,
+        "quantity": 1,
+        "unitPrice": 350
+      }
+    ],
+    "couponCode": null,
+    "subTotal": 350,
+    "discount": 35,
+    "shippingCost": 16.5,
+    "totalAmount": 331.5,
+    "status": "PaymentFailed",
+    "createdAt": "2026-10-23T15:26:44.836439+03:00",
+    "failureReason": "Payment gateway timeout (3s)",
+    "transactionId": null
+  },
+  {
+    "id": 13,
+    "customerId": 3,
+    "items": [
+      {
+        "productId": 6,
+        "quantity": 2,
+        "unitPrice": 150
+      }
+    ],
+    "couponCode": null,
+    "subTotal": 300,
+    "discount": 0,
+    "shippingCost": 9.2,
+    "totalAmount": 309.2,
+    "status": "Failed",
+    "createdAt": "2026-10-23T15:26:44.836441+03:00",
+    "failureReason": "Connection lost during commit",
+    "transactionId": "TXN-5B39CE3EE4D1"
+  }
+]
